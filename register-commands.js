@@ -6,7 +6,7 @@
 // ─────────────────────────────────────────────────────────────
 import 'dotenv/config';
 import { REST, Routes } from 'discord.js';
-import { commands } from './commands.js';
+import { commands } from './command.js';
 
 const { DISCORD_TOKEN, DISCORD_CLIENT_ID, DISCORD_GUILD_ID } = process.env;
 
