@@ -1,0 +1,7 @@
+services:
+  - type: background_worker
+    name: RaPaX_Discord_Bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
